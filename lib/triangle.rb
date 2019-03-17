@@ -10,9 +10,9 @@ class Triangle
   def kind 
     if @a == @b == @c 
       :equilateral
-      elsif 
+    elsif 
       
-      elsif 
+    elsif 
       
     end 
       
