@@ -7,7 +7,9 @@ class Triangle
     @c = c 
   end 
   
-  def kind 
+  def kind
+    if 
+    
     elsif @a == @b && @b == @c 
       :equilateral
     elsif @a == @b || @a == @c || @b == @c
