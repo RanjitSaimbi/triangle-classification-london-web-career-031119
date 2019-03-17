@@ -12,8 +12,8 @@ class Triangle
       :equilateral
     elsif @a == @b || @a == @c || @b == @c
       :isosceles
-    elsif 
-      
+    elsif @a + @b > @c || @b + @c > @a || @a + @c > @b
+      :scalene
     end 
       
   end 
