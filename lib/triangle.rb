@@ -8,7 +8,14 @@ class Triangle
   end 
   
   def kind 
-    
+    if @a == @b == @c 
+      
+      elsif 
+      
+      elsif 
+      
+    end 
+      
   end 
   
 end
