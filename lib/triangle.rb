@@ -15,7 +15,6 @@ class Triangle
     elsif @a + @b > @c || @b + @c > @a || @a + @c > @b
       :scalene
     end 
-      
   end
   
   class TriangleError < StandardError
