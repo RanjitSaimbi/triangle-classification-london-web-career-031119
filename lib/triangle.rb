@@ -10,8 +10,8 @@ class Triangle
   def kind 
     if @a == @b && @b == @c 
       :equilateral
-    elsif @a == @b || @a == @c || @b == @c 
-      
+    elsif @a == @b || @a == @c || @b == @c
+      :isosceles
     elsif 
       
     end 
